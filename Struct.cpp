@@ -6,3 +6,7 @@ struct orang{
     string alamat;
     int umur;
 };
+
+int main(){
+    
+}
