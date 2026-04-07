@@ -10,4 +10,12 @@ struct orang{
 int main(){
     orang mhs;
 
+    cout << "Nama Mahasiswa: ";
+    cin >> mhs.nama;
+    cout << "Alamat Asal: ";
+    cin >> mhs.alamat;
+    cout << "Umur: ";
+    cin >> mhs.umur;
+    cout << endl;
+
 }
