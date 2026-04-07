@@ -26,8 +26,8 @@ int main(){
     cout << endl;
 
     cout << "Nama: " << mhs.nama << endl;
-    cout << "Alamat Desa: " << mhs.alamat.desa << endl;
-    cout << "Alamat Kota: " << mhs.alamat.kota << endl;
+    cout << "Desa: " << mhs.alamat.desa << endl;
+    cout << "Kota: " << mhs.alamat.kota << endl;
     cout << "Umur: " << mhs.umur << endl;
 
 }
