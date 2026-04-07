@@ -2,11 +2,25 @@
 using namespace std;
 
 int main(){
+    //Array dengan inisialisasi
     int dataku[5] = {10, 20, 30, 40, 50};
 
     cout << "Data ke-3: " << dataku[2] <<  endl;
 
-    
+
+    //Array tanpa inisialisasi
     int datamu[5];
+
+    //Mengisi array satu per satu
+    cout << "Data Index ke - 0: ";
+    cin >> datamu[0];
+    cout << "Data Index ke - 1: ";
+    cin >> datamu[1];
+    cout << "Data Index ke - 2: ";
+    cin >> datamu[2];
+    cout << "Data Index ke - 3: ";
+    cin >> datamu[3];
+    cout << "Data Index ke - 4: ";
+    cin >> datamu[4];
 
 }
